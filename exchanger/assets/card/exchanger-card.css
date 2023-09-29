@@ -1,0 +1,53 @@
+.exchanger_title h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #232323;
+}
+.exchanger_title .info_exchanger {
+  margin: 0 0 24px;
+}
+.exchanger_title .info_exchanger .badge {
+  margin: 3px 0 0 6px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 3px 6px 1px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #00a700;
+}
+.exchanger_title .info_exchanger .data-badge {
+  display: inline-block;
+  width: 24px;
+  height: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 0 1px;
+  text-align: center;
+  color: #3c5999;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  vertical-align: middle;
+}
+.exchanger_title .info_exchanger .data-badge_param_verified {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjIwIiB2aWV3Qm94PSIwIC0yMSA1MTIgNTEyIiB3aWR0aD0iMjIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTMwNiAzMTdjLTEyIDEyLTI4IDE4LTQ1IDE4LTE3IDAtMzMtNi00NS0xOGwtOTAtOTBjLTEyLTEyLTE4LTI4LTE4LTQ1IDAtMTcgNi0zMyAxOC00NSAxMi0xMiAyOC0xOCA0NS0xOCAxNyAwIDMzIDYgNDUgMThsNDUgNDUgMTI1LTEyNWMtNDAtMzQtOTMtNTYtMTUyLTU2LTEyOSAwLTIzNCAxMDUtMjM0IDIzNCAwIDEyOSAxMDUgMjM0IDIzNCAyMzQgMTI5IDAgMjM0LTEwNSAyMzQtMjM0IDAtMjQtMy00Ny0xMC02OXptMCAwIiBmaWxsPSIjNGNhZjUwIi8+PHBhdGggZD0ibTI2MSAyOTNjLTUgMC0xMC0yLTE1LTZsLTkwLTkwYy04LTgtOC0yMSAwLTMwIDgtOCAyMS04IDMwIDBsNzUgNzUgMjE0LTIxNGM4LTggMjEtOCAzMCAwIDggOCA4IDIxIDAgMzBsLTIyOSAyMjljLTQgNC05IDYtMTUgNnptMCAwIiBmaWxsPSIjMjE5NmYzIi8+PC9zdmc+);
+}
+.exchanger_title .info_exchanger .data-badge {
+  margin-left: 5px;
+}
+.exchanger_title .info_exchanger .data-badge_have_cashback.data-badge_const-2 {
+  background-image: url(https://img.exchangesumo.com/wp-content/themes/exchange_monitoring_v2/nres/css/../../images/icons/icn_have_cashback1.svg);
+}
+
+/*# sourceMappingURL=exchanger-card.css.map */
