@@ -507,14 +507,18 @@ const sendToGTM = obj => {
     <div id="wrapped" class="preload-wrapped d-flex mx-auto row container-xl">
         <!-- SIDEBAR -->
         <div id="sidebar" class="preload-sidebar pb-2 pb-lg-0 ps-3 col-xs-12 col-sm-12 col-lg-4 pt-lg-3">
-         <div id="tab-history" class="tab d-none d-lg-block" data-block="vw-last-exchanges" data-variant="1">
-    <span class="title">Ваши последние направления:</span>
-    <ul class="popular-bar">
-         <li class="null-line ulpoad-history" style="text-align: center" >
-            Загрузка ...
-        </li>
-    </ul>
-</div>
+            <div id="tab-history">
+                <span class="title">Ваши последние направления:</span>
+                <ul class="popular-bar  with-banner">
+                     <li class="null-line not-history" style="text-align: center">
+                        У вас нет еще популярных направлений
+                    </li>
+                </ul>
+                 <a href="/chto-takoe-keshbjek/" class="popular-banner ">
+                     <div class="banner-text">Хочу кэшбек до 35%</div>
+                     <div class="banner-icon data-badge_have_cashback data-badge_const-2"></div>
+                 </a>
+            </div>
 <div id="vw-find-exchange-tabs" class="gtm-tabs-active d-none d-lg-block" data-variant="1">
 
     <span class="fw-bold float-start my-3 d-none">Найти выгодный обмен</span>
